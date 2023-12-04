@@ -15,6 +15,9 @@ namespace projetBlazorSiwa.Pages
         public HttpClient Http { get; set; }
 
         [Inject]
+        public NavigationManager NavigationManager { get; set; }
+
+        [Inject]
         public ILocalStorageService LocalStorage { get; set; }
 
         [Inject]
